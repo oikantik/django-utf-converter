@@ -1,1 +1,1 @@
-web: gunicorn converter_site.wsgi
+web: gunicorn --pythonpath converter_site converter_site.wsgi
